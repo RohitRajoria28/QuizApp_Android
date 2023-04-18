@@ -99,60 +99,10 @@ const UserForm = () => {
       />
     </View>
   );
-  // return (
-  //   <View  >
-  //      <Text> QUIZ APP </Text>
-  //     <Text >
-  //       <Picker
-  //         mode="dropdown"
-  //         placeholder="Selected Language"
-  //         selectedValue={contactInfo.language}
-  //         onValueChange={(value:any) => setContactInfo({...contactInfo, language: value})}
-  //       >
-  //         <Picker.Item label="Select Language" value="" />
-  //         <Picker.Item label="JavaScript" value="JavaScript" />
-  //         <Picker.Item label="Reactjs" value="Reactjs" />
-  //         <Picker.Item label="JAVA" value="JAVA" />
-  //       </Picker>
-  //     </Text>
-  //     <Text>
-  //       <TextInput
-  //         placeholder="Name"
-  //         value={contactInfo.name}
-  //         onChangeText={(value:any) =>
-  //           setContactInfo({ ...contactInfo, name: value })
-  //         }
-  //       />
-  //     </Text>
-  //     <Text>
-  //       <TextInput
-  //         placeholder="Email"
-  //         keyboardType="email-address"
-  //         value={contactInfo.email}
-  //         onChangeText={(value:any) =>
-  //           setContactInfo({ ...contactInfo, email: value })
-  //         }
-  //       />
-  //     </Text>
-  //     <Text>
-  //       <TextInput
-  //         placeholder="Phone Number"
-  //         keyboardType="phone-pad"
-  //         value={contactInfo.phoneNumber}
-  //         onChangeText={(value:any) =>
-  //           setContactInfo({ ...contactInfo, phoneNumber: value })
-  //         }
-  //       />
-  //     </Text>
+   
       
       
-    
-  //   <Button title = "Start test"  onPress = {handleSubmit} disabled={contactInfo.language==='' || contactInfo.name==='' || contactInfo.email==='' || contactInfo.phoneNumber===''} />
-      
-          
-  //   </View>
-  // );
-}
+   
 
 const styles = StyleSheet.create({
   container: {
